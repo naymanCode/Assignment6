@@ -12,7 +12,7 @@ public class aidyn {
 		switch (transport) {
 		case "Ship" : return new SeaLogistics();
 		case "Truck" : return new RoadLogistics();
-		default: return null;//
+		default: return null;
 		}
 		
 	};
